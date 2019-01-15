@@ -27,7 +27,7 @@ class Solution:
         else:
             newTree = TreeNode(t1.val+t2.val)
             newTree.left = self.mergeTrees(t1.left,t2.left)
-            newTree.rightt = self.mergeTrees(t1.right,t2.right)
+            newTree.right = self.mergeTrees(t1.right,t2.right)
             
             
         return newTree
